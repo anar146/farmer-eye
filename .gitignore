@@ -1,0 +1,23 @@
+# Python
+venv/
+**/venv/
+__pycache__/
+*.pyc
+.env
+
+# Django
+backend/media/
+*.sqlite3
+
+# ML (bade files)
+ml/data/
+*.pt
+*.pth
+*.onnx
+*.zip
+
+# Node / mobile
+node_modules/
+
+# OS
+.DS_Store
